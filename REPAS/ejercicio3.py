@@ -8,7 +8,8 @@ per pantalla, quin és el més gran.
 '''
 
 valor1 = int(input("Introduzca un primer valor "))
-valor2 = int(input("Introduzca un segungo valor"))
+valor2 = int(input("Introduzca un segungo valor "))
 
+result = valor1 if valor1 > valor2 else valor2
 
-print( "El valor introducido es" , valor ,"euros \nEl valor final con IVA: " , resultado)
+print( "El mayor es" , result)
