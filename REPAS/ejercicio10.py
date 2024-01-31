@@ -16,15 +16,18 @@ numeroAdivinar = random.randint(1,100)
 intentos = 0
 gano = False
 print(numeroAdivinar)
-while data > 0 and intentos < 5 :
+print("Numero de intentos 5 y para salir introduzca -1")
+while data > 0 and intentos < 5 and data != numeroAdivinar:
     data = int(input("Introduzca un numero -> "))
-    intentos+=1
-    if data == numeroAdivinar: 
-        gano = True
-        break
-    
-    
-if gano:
+    intentos +=1
+    if data < (numeroAdivinar/2) and data != numeroAdivinar and data > 0:
+        print("es mas grande")
+    elif data < numeroAdivinar and data != numeroAdivinar and data > 0:
+        print("es mas grande")
+    elif data > numeroAdivinar and data != numeroAdivinar and data > 0:
+        print("es mas pequeño")
+      
+if data == numeroAdivinar:
     print("Adivinaste..¡¡ \nNumero intentos: ", intentos)
 else: 
      print("Perdiste..¡¡ \nNumero intentos: ", intentos)
