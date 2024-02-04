@@ -1,0 +1,28 @@
+{
+    "book": [
+        {
+            "titulo": "El gato con botas",
+            "tapa": "dura",
+            "year": "1980",
+            "paginas": "180"
+        },
+        {
+            "titulo": "se\u00f1or de los anillos",
+            "tapa": "dura",
+            "year": "1980",
+            "paginas": "280"
+        },
+        {
+            "titulo": "patito feo",
+            "tapa": "blanda",
+            "year": "1980",
+            "paginas": "180"
+        },
+        {
+            "titulo": "Biblia",
+            "tapa": "dura",
+            "year": "1980",
+            "paginas": "450"
+        }
+    ]
+}
