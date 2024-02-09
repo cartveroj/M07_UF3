@@ -1,16 +1,15 @@
 
 from conecction import *
 
-def create_table():
-    sql_update ='''CREATE TABLE USERS(
-            user_id SERIAL PRIMARY KEY,
-            user_name VARCHAR(255) NOT NULL,
-            user_surname VARCHAR(255) NOT NULL,
-            user_age BIGINT NOT NULL,
-            user_email VARCHAR NOT NULL
-    )'''
-    print(sql)
-    connection.execute(sql)
-    print(connection)
+def update_data(name):
+    
+    sql_update ="UPDATE USERS SET user_name = %s WHERE user_id = '1'"
+    print(sql_update)
+    connection.execute(sql_update,name)
     conn.commit()
+    resultado = connection.rowcount
+    print("id moficada ", resultado, "Actualizada correctamente")
 
+
+name = "Carla"
+update_data(name)

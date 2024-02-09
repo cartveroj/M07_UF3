@@ -8,3 +8,4 @@ def create():
     print(sql_insert)
     connection.execute(sql_insert)
     conn.commit()
+
