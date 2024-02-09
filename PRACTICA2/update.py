@@ -1,4 +1,8 @@
 
+'''
+Archivo que contiene una funcion que actualiza una columna
+NAME de la tabla USERS 
+'''
 from conecction import *
 
 def update_data(name):

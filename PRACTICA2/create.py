@@ -1,3 +1,6 @@
+'''
+Archivo que contiene la funcion que inserta un registro en la tabla
+'''
 from conecction import *
 
 def create():

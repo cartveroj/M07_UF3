@@ -1,3 +1,6 @@
+'''
+Archivo que contiene la coneccion con la base de datos
+'''
 import psycopg2
 
 conn = psycopg2.connect(

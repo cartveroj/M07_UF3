@@ -1,3 +1,7 @@
+'''
+Archivo que contiene una funcion que elimina un registro
+especifico de la tabla
+'''
 
 from conecction import *
 

@@ -1,4 +1,8 @@
 
+'''
+Archivo que contiene una funcion que crear una tabla
+en la base de datos
+'''
 from conecction import *
 
 def create_table():
